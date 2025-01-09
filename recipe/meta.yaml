@@ -23,6 +23,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - tomli >=1.0.0
+    - setuptools
   run:
     - backports.cached-property
     - packaging
